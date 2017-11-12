@@ -6,7 +6,7 @@
   <style>
     body {
       background-color: lightblue;
-      text-align: center;
+
     }
 
     #p {
@@ -15,7 +15,7 @@
 
     }
 
-    p {
+    p, img {
       text-align: center;
     }
 
@@ -34,6 +34,9 @@
     #contents {
       text-align: left;
       }
+      #con {
+        position: fixed;
+      }
   </style>
 </head>
 
@@ -42,18 +45,21 @@
 
   <p id="p"> By: NerdyKittyProgrammer</p>
 
-  <p>Hi, Welcome to my webpage! Here are a few things I will share with you about me!<br> I can first tell you about my cats stormageddon Meatball and Myrna Pepperoni!</p>
- <h3>My Cats</h3>
+  <p>Hi, Welcome to my webpage! Here are a few things I will share with you about me!<br> I can first tell you about my two cats Stormageddon Meatball and Myrna Pepperoni!</p>
+ <h3 id="gh">My Cats</h3>
   <img src="" alt="Stormy the cat" width="200">
 
   <img src="" alt="Stormy the cat" width="200">
 
   <p>Stormy's on the left and Myrna's on the right.<br></p>
-
+   <div id="con">
   <h2 id="contents">Contents:</h2>
   <ul>
-  <li>My Cats</li>
+  <li><a href="#gh">My Cats</a></li>
+  <li>My Hobbies</li>
+  <li>My Favorite Places to Go</li>
   </ul>
+ </div>
 </body>
 
 </html>
