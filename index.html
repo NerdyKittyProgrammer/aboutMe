@@ -32,38 +32,60 @@
     #Stormy {
       border: 5px solid rgb(57, 121, 184);
     }
+    .spin {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
   </style>
 </head>
 
 <body>
-  <div id="sidebar">
-    <ul>
-
-    <li><a href="#intro2me">Intro to me!</a></li>
-    <li><a href="#mycats">My Cats</a></li><
-
-  </ul>
-
-  </div>
 
   <h2 id="logo-thing">NerdyKittyProgrammer</h2>
   <h1>All About NerdyKittyProgrammer</h1>
 
   <p> By: NerdyKittyProgrammer</p>
 
-  <p>Hi, Welcome to my webpage!</p>
-
-  <h2 id="intro2me">Intro to me!</h2>
+  <h2 id="intro2me">Quick Intro to me!</h2>
   <p>
     <strong>Hi my name is NerdyKittyProgrammer, here is a little into to me! Hope you enjoy!</strong><br> My experience with programming is not professional but not completely new to programming so in the middle. So far I only know html/css.<br>In fact
     ths webpage your reading right now is written in you guessed it html and css.
   </p>
 
   <p>
-
-    The things I do most often (for fun) is Programming and Drawing. But I also like video games Minecraft, Animal Jam, Mario Bros.,
-    Mario Cart.<br>If I were to rate from least favorite to favorite in school subjects here is what it would be.<br> 1. Math<br> 2. Social Studies<br> 3. Language Arts<br> 4. Science <br> Yeah I am not a fan of Science but I am a fan of Math. (P.S Math
-    is fun!)<br> But that's not the end keep scroling down to discover more about me!
+    The things I do most often (for fun) is Programming and Drawing. But I also like video games such as Minecraft, Animal Jam, Mario Bros. ,
+    Mario Cart, etc.<br> My favorite subject in school is Math but here is a list from my least favorite to my favorite!<br>
+    1.Math<br>
+    2.Social Studies<br>
+    3.Language Arts <br>
+    4.Science<br>
+    Yeah I am not a fan of Science but I am a fan of Math. (Math is fun!)<br>
+  But that's not the end keep scroling down to discover more about me!
   </p>
 
   <h2 id="mycats">My Cats</h3>
