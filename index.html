@@ -42,7 +42,47 @@
   #spincat2 {
     float: right;
   }
-      .spin {
+  .spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 2000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 2000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+      .spin-reverse  {
       -webkit-animation-name: spin;
       -webkit-animation-duration: 2000ms;
       -webkit-animation-iteration-count: infinite;
@@ -77,12 +117,14 @@
 
     @keyframes spin {
       from {
-        transform: rotate(0deg);
-      }
-      to {
         transform: rotate(360deg);
       }
+      to {
+        transform: rotate(0deg);
+      }
     }
+
+
 
   </style>
 </head>
@@ -117,7 +159,7 @@
 
 <img class="spin" id="spincat1" src="https://lh3.googleusercontent.com/-5rZpjPy3KcY/WhA9AIDuhLI/AAAAAAAACe0/T9DI9n1GB8EOL_Noh8nhl3WXWfh0R-qhQCL0BGAYYCw/h512/2017-11-18.png" alt="spining cat" width="200">
 
-<img class="spin" id="spincat2" src="https://lh3.googleusercontent.com/-5rZpjPy3KcY/WhA9AIDuhLI/AAAAAAAACe0/T9DI9n1GB8EOL_Noh8nhl3WXWfh0R-qhQCL0BGAYYCw/h512/2017-11-18.png" alt="spining cat" width="200">
+<img class="spin-reverse" id="spincat2" src="https://lh3.googleusercontent.com/-5rZpjPy3KcY/WhA9AIDuhLI/AAAAAAAACe0/T9DI9n1GB8EOL_Noh8nhl3WXWfh0R-qhQCL0BGAYYCw/h512/2017-11-18.png" alt="spining cat" width="200">
   <p>Stormy's on the left and Myrna's on the right.<br>I really love my cats Stormy and Myrna but this is a picture of my moms point of view of my cat stormy.
 </p>
   <img class="Stormy" src="https://lh3.googleusercontent.com/-89qRiNCIMsc/WguB8kAnQgI/AAAAAAAACeI/IHC4HyVVBPsvce30vHEOzqXY-nZtnWv-ACL0BGAYYCw/h1184/2017-11-14.jpg" alt="My moms point of view with stormy" width="200">
