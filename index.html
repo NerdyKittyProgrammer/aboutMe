@@ -28,6 +28,10 @@
       font-family: Vollkorn SC;
       background-color: #5A6EA8;
       text-align: center;
+      font-size: 35px;
+      
+
+
     }
 
     .Stormy {
@@ -86,10 +90,58 @@
         transform: rotate(360deg);
       }
     }
+    #TOC {
+      text-align: left;
+      position: fixed;
+
+    }
+    ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+
+
+    }
+    ul li {
+      float: left;
+      width: 200px;
+      height: 40px;
+      background-color: #111;
+      opacity: .8;
+      color: white;
+      line-height: 40px;
+      text-align: center;
+      font-size: 20px;
+    }
+    ul li a {
+      text-decoration: none;
+      color: white;
+      display: block;
+    }
+    ul li a:hover {
+      background-color: #800048;
+      }
+    ul li ul li {
+      display: none;
+    }
+    ul li:hover ul li {
+      display: block;
+    }
   </style>
 </head>
 
 <body>
+
+    <ul id="TOC">
+      <li><a>Contents</a>
+        <ul>
+          <li><a href="#intro2me">Quick Intro to me!</a></li>
+          <li><a href="#mycats">All about my cats!</a></li>
+          <li><a href="#vacation">My Vacation Trips</a></li>
+        </ul>
+      </li>
+    </ul>
+
 
   <h2 id="logo-thing">NerdyKittyProgrammer</h2>
 
@@ -109,7 +161,7 @@
     <br> Yeah I am not a fan of Science but I am a fan of Math. (Math is fun!)<br> But that's not the end keep scroling down to discover more about me!
   </p>
 
-  <h2 id="mycats">My Cats</h3>
+  <h2 id="mycats">All about my Cats!</h3>
     <p>
       Welcome to the section of my website that's all about my cats.<br>I have two cats named Stormageddon Meatball and Myrna Pepperoni.
     </p>
@@ -126,7 +178,7 @@
   <p>
     Yeah....She loves him. <strong>(She made this photo)</strong>But she loves me and my brother too!<br>Now there is a little history with these cats that I would like to share with you! First you might be wondering why we called one of our cats Stormageddon Meatball.<br>Well we didn't adopt him from the animal shelter he was a stray cat.<br> It all happened when we were eating meatballs for dinner and we heard this cat meowing outside during a storm so we let it inside<br> and we didn't have a cat so we had no cat food but we did have...<br> <strong>Meatballs!</strong>So we gave him the meatballs and he love them. The thing was was that he was really skinny<br> so he was desperate for food, shelter, and water. He loved snuggling so my brother and I of course asked to keep him and my mom's resonse was not yes or no it was "Maybe" <br>but my brother and I loved cats so we took that as a yes. And we took him the vet the next day in a little cat carrier problem was was that he was gonna get bigger he was so skinny that he could fit in a carrier half his size. So when we decided to keep him the vet gave us a new carrier. And we had to think of a name so we thoght Stormy because it was a stormy night and the we thought Doctor Who so Stormageddon and he ate meatballs so Stormageddon Meatball it is!<br>The End
   </p>
-  <h2>My vacation trips</h2>
+  <h2 id="vacation">My vacation trips</h2>
 
   <h3>My trip to the OBX</h3>
   <p>
@@ -144,9 +196,10 @@
   <h3>My trip to Kentucky Down Under Adventure Zoo</h3>
 
   <p>
-    We went to a zoo in kentuckey and it was the best zoo I have ever been to! <a href="http://www.kentuckydownunder.com/adventure_zoo_info/adventure_zoo.html">http://www.kentuckydownunder.com</a><br>There were multiple types of birds, snakes and even Kangaroo's and Emu's. We got to feed the kangaroo's strips of carrots with our mouths!<br />All you would have to do
-    was put the piece of carrot in your mouth and get down close to them and they would eat it.<br />And the Emu's were huge! It was like a dinosaur. There was a section of the zoo that had nothing but birds and my aunt came along to but she's afraid
-    of birds.<br />But she came in hand because she was the only one who could roll her R's. We needed that for the Laughing kookaburra if you rolled your R's it would make a noise that would sound like it's laughing.<br /> <a href="https://en.wikipedia.org/wiki/Laughing_kookaburra">Read more about the Laughing kookaburra </a>
+    We went to a zoo in kentuckey and it was the best zoo I have ever been to! <a href="http://www.kentuckydownunder.com/adventure_zoo_info/adventure_zoo.html">http://www.kentuckydownunder.com</a><br>There were multiple types of birds, snakes and even
+    Kangaroo's and Emu's. We got to feed the kangaroo's strips of carrots with our mouths!<br />All you would have to do was put the piece of carrot in your mouth and get down close to them and they would eat it.<br />And the Emu's were huge! It was like
+    a dinosaur. There was a section of the zoo that had nothing but birds and my aunt came along to but she's afraid of birds.<br />But she came in hand because she was the only one who could roll her R's. We needed that for the Laughing kookaburra if
+    you rolled your R's it would make a noise that would sound like it's laughing.<br /> <a href="https://en.wikipedia.org/wiki/Laughing_kookaburra">Read more about the Laughing kookaburra </a>
   </p>
 
 </body>
