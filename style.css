@@ -45,15 +45,15 @@ h1 {
 
 .spin {
   -webkit-animation-name: spin;
-  -webkit-animation-duration: 2000ms;
+  -webkit-animation-duration: 3000ms;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   -moz-animation-name: spin;
-  -moz-animation-duration: 2000ms;
+  -moz-animation-duration: 3000ms;
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
   animation-name: spin;
-  animation-duration: 2000ms;
+  animation-duration: 3000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -131,7 +131,7 @@ ul li:hover ul li {
 
 .paragraph {
   text-align: left;
-  margin-left: 600px;
+  margin-left: 550px;
 }
 
 h1,
@@ -160,4 +160,11 @@ p {
 margin-top: 0px;
     background-color: #5A6EA8;
     color: white;
+}
+
+p {
+  font-size: 20px;
+}
+h3 {
+  30px
 }
