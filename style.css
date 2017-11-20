@@ -5,7 +5,6 @@
 body {
   background-color: #90A7EA;
   text-align: center;
-
 }
 
 #p {
@@ -23,16 +22,12 @@ h1 {
   background-color: #5A6EA8;
   text-align: center;
   font-size: 35px;
-
-
-
 }
 
 .Stormy {
   border: 5px solid #5A6EA8;
   text-align: center;
   margin-right: 20px;
-
 }
 
 #spincat1 {
@@ -95,8 +90,6 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
-
-
 }
 
 ul li {
@@ -131,12 +124,11 @@ ul li:hover ul li {
 
 .paragraph {
   text-align: left;
-  margin-left: 550px;
+  margin-left: 600px;
+  margin-right: 600px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: sans-serif;
 }
 
@@ -147,24 +139,28 @@ p {
 #github {
   background-color: #5A6EA8;
   margin-bottom: 0px;
-
 }
 
 #favtable {
   text-align: left;
   margin-left: 848px;
   font-size: 25px;
-
 }
+
 #date {
-margin-top: 0px;
-    background-color: #5A6EA8;
-    color: white;
+  margin-top: 0px;
+  background-color: #5A6EA8;
+  color: white;
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
 }
+
 h3 {
   30px
+}
+
+table {
+
 }
