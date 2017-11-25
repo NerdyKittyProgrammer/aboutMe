@@ -111,7 +111,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #5A6EA8;
+  background-color: #4B4C4C;
 }
 
 ul li ul li {
@@ -124,8 +124,8 @@ ul li:hover ul li {
 
 .paragraph {
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13%;
+  margin-right: 13%;
 }
 
 h1, h2, h3 {
@@ -168,6 +168,6 @@ h3 {
 color: white;
 background-color: red;
 border: 5px solid orange;
-
-
+width: 45%;
+margin: auto;
 }
